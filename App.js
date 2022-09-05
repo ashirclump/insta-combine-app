@@ -20,7 +20,7 @@ import Dpcreatortwo from './src/Screens/Dpcreatortwo';
 import Sapceadder from './src/Screens/Spaceadder';
 import Homepage from './src/Screens/Homepage';
 import Test from './src/Components/Test';
-import Imagecrop from './src/Screens/Imagecrop';
+// import Imagecrop from './src/Screens/Imagecrop';
 import Tempupload from './src/Screens/Tempupload';
 import Swipephoto from './src/Screens/Swipephoto';
 import Swipephoto2 from './src/Screens/Swipephoto2';
@@ -90,7 +90,7 @@ function App() {
         <Stack.Screen options={{ headerShown: false }} name="Tempupload" component={Tempupload} />
         <Stack.Screen options={{ headerShown: false }} name="Dpcreateone" component={Dpcreateone} />
         <Stack.Screen options={{ headerShown: false }} name="Uploadimage" component={Uploadimage} />
-        <Stack.Screen options={{ headerShown: false }} name="Imagecrop" component={Imagecrop} />
+        {/* <Stack.Screen options={{ headerShown: false }} name="Imagecrop" component={Imagecrop} /> */}
         <Stack.Screen options={{ headerShown: false }} name="Test" component={Test} />
         <Stack.Screen options={{ headerShown: false }} name="Sapceadder" component={Sapceadder} />
         {/* <Stack.Screen options={{ headerShown: false }} name="Fbloginpage" component={Fbloginpage} /> */}
